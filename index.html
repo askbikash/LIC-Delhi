@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LIC Advisor</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <style>
+    .whatsapp {
+      position: fixed;
+      bottom: 60px;
+      right: 2px;
+      text-align: right;
+      z-index: 10;
+    }
+
+    @media only screen and (max-width:600px) {
+      .whatsapp {
+        right: 0;
+      }
+
+      .whatsapp-img {
+        width: 25%;
+      }
+    }
+
+    .enquiry {
+      position: fixed;
+      bottom: 50%;
+      right: 0;
+      writing-mode: vertical-rl;
+      text-align: right;
+      z-index: 20;
+    }
+
+
+    .btn-primary {
+      background-color: #2a4d85;
+      border: none;
+      width: 2.5rem;
+      padding: 30px 5px;
+    }
+
+    .btn-primary:hover {
+      background-color: #ffef09;
+      color: #000;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="enquiry">
+    <button type="button" class="btn btn-primary">Quick Enquiry</button>
+  </div>
+  <header class="header sticky-top">
+    <header class="header-top">
+      <div class="container">
+        <ul class="contact-info">
+          <li><span><i class="fa-solid fa-phone" style="color: #24385b;"></i></span><a
+              href="tel:+91-9873622872">+91-9958899892</a></li>
+          <li><span><i class="fa-solid fa-envelope" style="color: #24385b;"></i></span><a
+              href="mailto:mantugupta@gmail.com">mantugupta1992@gmail.com</a></li>
+        </ul>
+      </div>
+    </header>
+    <header class="header-bottom">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img width="160" height="55" src="Images/LIC_LOGO_2.png" alt=""></a>
+          <a class="navbar-brand" href="#"><img width="72" height="43" src="Images/LIC_LOGO_1.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Insurance Plans</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Unit Plans</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Pension Plans</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Health Plans</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Micro Insurance Plans</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Withdrawn Plans</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Services</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </header>
+
+  <section class="hero">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Images/bannerimage1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/bannerimage2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/banner3.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="three text-center">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="Images/whole-life-Plan.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Whole Life Plan</h5>
+              <p class="card-text">Protect Your Family and Stay Tension Free with Small Investment in Whole Life Plan.
+              </p>
+              <a href="#">READ MORE<i class="fa-solid fa-arrow-trend-up" style="color: #2f67ce;"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="Images/Jivan-lakshya.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Jeevan lakshya</h5>
+              <p class="card-text">Jeevan Lakshya Plan Help You in securing Your Life and Get Financial Stability.</p>
+              <a href="#">READ MORE<i class="fa-solid fa-arrow-trend-up" style="color: #2f67ce;"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="Images/Children-Plan.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Children Plan</h5>
+              <p class="card-text">LIC offers you Children Plan with easy schemes and premier to afford.</p>
+              <a href="#">READ MORE<i class="fa-solid fa-arrow-trend-up" style="color: #2f67ce;"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="Images/Unit-Plan.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Units Plan</h5>
+              <p class="card-text">Secure yourself and your family members with Unit Plans from LIC India</p>
+              <a href="#">READ MORE<i class="fa-solid fa-arrow-trend-up" style="color: #2f67ce;"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="Images/Health-Plan.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Health Plan</h5>
+              <p class="card-text">A complete financial support in case of illness and hospital bills – Health Plans
+                from LIC</p>
+              <a href="#">READ MORE<i class="fa-solid fa-arrow-trend-up" style="color: #2f67ce;"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="Images/Pension-Plan.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pension Plan</h5>
+              <p class="card-text">For economical stability after 60 + years of age with pension plans from LIC</p>
+              <a href="#">READ MORE<i class="fa-solid fa-arrow-trend-up" style="color: #2f67ce;"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="fourth">
+    <div class="container fourth-part">
+      <div class="row">
+        <div class="col-lg-6 col-12">
+          <h4 class="fourth-heading">How LIC Advisor in Delhi Making Policy Plans Accessible to You at Your Home</h4>
+          <p class="fourth-para">Life Insurance Corporation (LIC India) is the most trusted name in insurance domain.
+            Choose policy of your choice or consult with expert agents at LIC Agents Delhi, who will be at your address
+            in Delhi & NCR to provide you information about the best suitable LIC plan and then complete documentation
+            for policy without going anywhere. Everything is in secure and safe way with a hassle-free process.</p>
+        </div>
+        <div class="col-lg-6 col-12">
+          <img src="Images/chart.jpg" class="fourth-img" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="container fourth-part">
+      <div class="row">
+        <div class="col-lg-6 col-12">
+          <img src="Images/chart.jpg" class="fourth-img" alt="">
+        </div>
+        <div class="col-lg-6 col-12">
+          <h4 class="fourth-heading">How LIC Advisor in Delhi Making Policy Plans Accessible to You at Your Home</h4>
+          <p class="fourth-para">Life Insurance Corporation (LIC India) is the most trusted name in insurance domain.
+            Choose policy of your choice or consult with expert agents at LIC Agents Delhi, who will be at your address
+            in Delhi & NCR to provide you information about the best suitable LIC plan and then complete documentation
+            for policy without going anywhere. Everything is in secure and safe way with a hassle-free process.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container fourth-part">
+      <div class="row">
+        <div class="col-lg-6 col-12">
+          <h4 class="fourth-heading">How LIC Advisor in Delhi Making Policy Plans Accessible to You at Your Home</h4>
+          <p class="fourth-para">Life Insurance Corporation (LIC India) is the most trusted name in insurance domain.
+            Choose policy of your choice or consult with expert agents at LIC Agents Delhi, who will be at your address
+            in Delhi & NCR to provide you information about the best suitable LIC plan and then complete documentation
+            for policy without going anywhere. Everything is in secure and safe way with a hassle-free process.</p>
+        </div>
+        <div class="col-lg-6 col-12">
+          <img src="Images/chart.jpg" class="fourth-img" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="container fourth-part">
+      <div class="row">
+        <div class="col-lg-6 col-12">
+          <img src="Images/chart.jpg" class="fourth-img" alt="">
+        </div>
+        <div class="col-lg-6 col-12">
+          <h4 class="fourth-heading">How LIC Advisor in Delhi Making Policy Plans Accessible to You at Your Home</h4>
+          <p class="fourth-para">Life Insurance Corporation (LIC India) is the most trusted name in insurance domain.
+            Choose policy of your choice or consult with expert agents at LIC Agents Delhi, who will be at your address
+            in Delhi & NCR to provide you information about the best suitable LIC plan and then complete documentation
+            for policy without going anywhere. Everything is in secure and safe way with a hassle-free process.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-12 footer-space">
+          <a href="#"><img width="240" height="80" src="Images/LIC_LOGO_2.png" class="footer-img"
+              alt="LIC Agent Delhi"></a>
+          <p class="footer-para">
+            LIC Advisor helps you in choosing the best insurance plan for giving a stability to your family in
+            future. We suggest you the best fitted health insurance or any kind of insurance plan for better economical
+            support.
+          </p>
+        </div>
+        <div class="col-lg-3 col-12 footer-space">
+          <h3 class="footer-heading">Links</h3>
+          <ul>
+            <li class="footer-li">Lic Insurance Plan</li>
+            <li class="footer-li">Unit Plan</li>
+            <li class="footer-li">Pension Plan</li>
+            <li class="footer-li">Health Plan</li>
+            <li class="footer-li">Micro Insurance Plan</li>
+            <li class="footer-li">Withdrawn Plan</li>
+            <li class="footer-li">LIC Money Back Policy</li>
+            <li class="footer-li">LIC Agent in Noida</li>
+            <li class="footer-li">LIC Agent in Gurgaon</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-12 footer-space">
+          <h3 class="footer-heading">Useful Links</h3>
+          <ul>
+            <li class="footer-li">Contact Us</li>
+            <li class="footer-li">About Us</li>
+            <li class="footer-li">Blogs</li>
+            <li class="footer-li">Add Review</li>
+            <li class="footer-li">Suggest Policy</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-12 footer-space">
+          <h3 class="footer-heading">Social Media</h3>
+          <div class="social-icons">
+            <span><i class="fa-brands fa-square-x-twitter" style="color: #fff;"></i></span>
+            <span><i class="fa-solid fa-envelope" style="color: #fff;"></i></span>
+            <span><i class="fa-brands fa-square-whatsapp" style="color: #fff;"></i></span>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+  <footer class="footer-bottom">
+    <div class="container">
+      <span class="last-text">copyright © 2023</span><a href="#" class="last-link">LIC Advisor</a>
+    </div>
+  </footer>
+
+  <div class="whatsapp">
+    <a href="https://wa.me/9958899892" target="_blank"><img src="Images/whatsapp.png" width="15%" alt=""
+        class="whatsapp-img"></a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
