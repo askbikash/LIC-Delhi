@@ -156,3 +156,8 @@ span {
   color: #c5c5c5;
   font-size: 0.8rem;
 }
+
+.footer-li a{
+  text-decoration: none;
+  color: #fff;
+}
